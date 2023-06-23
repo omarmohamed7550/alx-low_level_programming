@@ -12,13 +12,11 @@ int main(void)
 
     i = 0;
 
-    /* Commenting out the while loop to avoid the infinite loop */
-    /*
     while (i < 10)
     {
         putchar(i);
+        break; // Add a break statement to exit the loop after one iteration
     }
-    */
 
     printf("Infinite loop avoided! \\o/\n");
 
